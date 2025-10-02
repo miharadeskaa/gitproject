@@ -2,6 +2,27 @@
 //L'utilisateur peut ajouter au maximum 5 fruits , les retirer , les afficher et les rechercher.
 //Gérer les doublons lors de l'ajout d'un fruit.
 //Permettez à l'utilisateur de quitter le jeu via le menu.
+/**
+ * Programme de gestion d'un panier de fruits en console.
+ *
+ * Fonctionnalités :
+ * 1. Ajouter un fruit au panier (maximum 5, pas de doublons, normalisation en minuscules).
+ * 2. Retirer un fruit du panier (suppression par nom, normalisation en minuscules).
+ * 3. Afficher les fruits du panier (affichage normal et trié par ordre alphabétique).
+ * 4. Rechercher un fruit dans le panier (recherche par nom, normalisation en minuscules).
+ * 5. Quitter le programme.
+ *
+ * Variables principales :
+ * - fruits : tableau de chaînes de caractères pour stocker les fruits.
+ * - count : entier représentant le nombre de fruits actuellement dans le panier.
+ *
+ * Utilisation :
+ * - Menu interactif en boucle jusqu'à la sortie.
+ * - Vérification des entrées utilisateur pour éviter les erreurs et doublons.
+ * - Affichage des messages d'information et d'erreur selon les actions.
+ */
+
+
 using System;
 
 class Program
