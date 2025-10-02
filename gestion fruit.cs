@@ -1,4 +1,4 @@
-<?php
+
 //Créer un jeu de gestion de fruits au marché à l aide d' un tableau de chaînes de caractères.
 //L'utilisateur peut ajouter au maximum 5 fruits , les retirer , les afficher et les rechercher.
 //Gérer les doublons lors de l'ajout d'un fruit.
@@ -171,4 +171,4 @@ class Program
     }
 }
 
-?>
+
